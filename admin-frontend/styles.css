@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8da22;
+    margin: 0;
+    padding: 20px;
+}
+
+.admin-container {
+    background-color: #e9090a;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ticket-list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.ticket {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ticket.pending { background-color: #fff3cd; }
+.ticket.active { background-color: #d4edda; }
+.ticket.non-active { background-color: #f8d7da; }
+
+.ticket-actions button {
+    margin-right: 10px;
+}

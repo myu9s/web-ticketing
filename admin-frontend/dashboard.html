@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Admin Tiket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Manajemen Tiket</h1>
+        <div class="filter-section">
+            <select id="status-filter">
+                <option value="">Semua Status</option>
+                <option value="pending">Pending</option>
+                <option value="active">Aktif</option>
+                <option value="non-active">Tidak Aktif</option>
+            </select>
+            <select id="date-filter">
+                <option value="">Semua Jadwal</option>
+                <option value="2024-03-15-19:00">15 Maret 2024</option>
+                <option value="2024-03-16-19:00">16 Maret 2024</option>
+                <option value="2024-03-17-19:00">17 Maret 2024</option>
+            </select>
+        </div>
+        <div id="ticket-list" class="ticket-list"></div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
