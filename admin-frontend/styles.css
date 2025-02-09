@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8da22;
+    margin: 0;
+    padding: 20px;
+}
+
+.admin-container {
+    background-color: #e9090a;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#ticket-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}

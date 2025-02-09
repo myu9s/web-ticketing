@@ -1,0 +1,14 @@
+{
+    "name": "theater-ticket-system",
+    "version": "1.0.0",
+    "dependencies": {
+      "mongoose": "^8.0.3",
+      "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+      "netlify-cli": "^17.0.0"
+    },
+    "scripts": {
+      "deploy": "netlify deploy --prod"
+    }
+  }
